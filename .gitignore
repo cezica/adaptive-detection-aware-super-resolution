@@ -1,0 +1,58 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+
+venv/
+.venv/
+env/
+.env/
+conda-meta/
+
+# IDE / OS
+
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Datasets
+
+data/train_HR/
+data/valid_HR/
+data/Set5/
+data/Set14/
+data/coco_da_val/
+data/coco/
+data/COCO/
+data/div2k/
+data/DIV2K/
+
+# Model weights
+
+*.pt
+*.pth
+*.onnx
+checkpoints/
+
+# YOLO / experiment outputs
+
+runs/
+wandb/
+results*/
+outputs/temp/
+outputs/raw/
+
+# Large generated files
+
+*.mp4
+*.avi
+*.zip
+*.rar
+*.7z
